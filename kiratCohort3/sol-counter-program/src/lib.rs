@@ -5,7 +5,9 @@ use solana_program::{
     msg,
     pubkey::Pubkey,
     entrypoint
-}
+};
+
+#[derive(BorshSerialize, BorshDeserialize)]
 enum Instruction{
     Increment(u32),
     Decrement(u32)

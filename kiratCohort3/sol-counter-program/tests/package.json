@@ -1,0 +1,14 @@
+{
+  "name": "tests",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "borsh": "^2.0.0"
+  }
+}
